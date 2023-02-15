@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/calc.css">
+    <script src="../javascript/calc.js"></script>
+    <title>Home</title>
+</head>
+<body>
+    <header class="nav">
+        <a href="../index.html">Home</a>
+        <a href="Calculadora.html">Calculadora</a>
+        <a href="Infos.html">Infos</a>
+    </header>
+
+    <div class="cont">
+        <h1>Bem vindo a nossa calculadora por favor insira os valores</h1>
+        <p>Vamos ver quanto que vai ficar sua aplicação</p>
+    </div> 
+
+    <div class="calc">
+        <div class="inputs1">
+            <input id="taxa" type="number" placeholder="taxa">
+            <input id="tempo" type="number" placeholder="meses">
+        </div>
+        <div class="inputs2">
+            <input id="aplicacao" type="number" placeholder="aplicação">
+            <button onclick="calc()">Calcular</button>
+        </div>
+    </div>
+
+    <div class="resultados">
+        <p>Resultado:</p>
+        <input disabled id="result" type="number" placeholder="resultado">
+    </div>
+</body>
+</html>
